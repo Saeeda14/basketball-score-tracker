@@ -19,3 +19,4 @@ function threePoint() {
   homeEl.textContent = count 
 }
 
+let guestEl = document.getElementById("guest-el")

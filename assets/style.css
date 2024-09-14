@@ -3,7 +3,7 @@ body {
   margin: 75px auto;
 }
 
-.main { 
+.container { 
   display: flex;
   justify-content: space-around;
   
@@ -21,3 +21,9 @@ h1 {
   color: white; 
 }
 
+.guest-card {
+  padding: 125px 125px;
+  margin: 40px -90px;
+  background-color: black;
+  color: white; 
+}
