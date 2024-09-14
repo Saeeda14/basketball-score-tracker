@@ -1,0 +1,23 @@
+body { 
+  background-color: #001d3d;
+  margin: 75px auto;
+}
+
+.main { 
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+h1 { 
+  color: whitesmoke;
+}
+
+.home-card { 
+  padding: 125px 125px;
+  margin: 40px -90px;
+  background-color: black;
+  color: white; 
+}
+
