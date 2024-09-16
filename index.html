@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css" />
   <title> Basketball Scoreboard </title>
 </head>
@@ -19,22 +25,26 @@
     <h1> Home </h1>
       <div class="home-card" id="home-el"></div>
       <!-- the function will listen to which onclick button was clicked and add those point to the team it was clicked on -->
+      <div id="btns">
         <button onclick="homePoint(1)"> +1 </button>
         <button onclick="homePoint(2)"> +2 </button>
         <button onclick="homePoint(3)"> +3 </button>
       </div>
+  </div>
   <div class="guest">
     <h1> Guest </h1>
       <div class="guest-card" id="guest-el"></div>
+      <div id="btns">
         <button onclick="guestPoint(1)"> +1 </button>
         <button onclick="guestPoint(2)"> +2 </button>
         <button onclick="guestPoint(3)"> +3 </button>
-      </div> 
+      </div>
+  </div> 
 
 </div>
 
 <div id="reset-btn">
-  <button> RESET GAME </button>
+  <button class="reset"> RESET GAME </button>
 </div>
 
 </body>
