@@ -18,18 +18,23 @@
   <div class="home">
     <h1> Home </h1>
       <div class="home-card" id="home-el"></div>
-        <button onclick="onePoint()"> +1 </button>
-        <button onclick="twoPoint()"> +2 </button>
-        <button onclick="threePoint()"> +3 </button>
+      <!-- the function will listen to which onclick button was clicked and add those point to the team it was clicked on -->
+        <button onclick="homePoint(1)"> +1 </button>
+        <button onclick="homePoint(2)"> +2 </button>
+        <button onclick="homePoint(3)"> +3 </button>
       </div>
   <div class="guest">
     <h1> Guest </h1>
-      <div class="guest-card" id="guest-scr"></div>
-        <button onclick="onePoint()"> +1 </button>
-        <button onclick="twoPoint()"> +2 </button>
-        <button onclick="threePoint()"> +3 </button>
+      <div class="guest-card" id="guest-el"></div>
+        <button onclick="guestPoint(1)"> +1 </button>
+        <button onclick="guestPoint(2)"> +2 </button>
+        <button onclick="guestPoint(3)"> +3 </button>
       </div> 
 
+</div>
+
+<div id="reset-btn">
+  <button> RESET GAME </button>
 </div>
 
 </body>
